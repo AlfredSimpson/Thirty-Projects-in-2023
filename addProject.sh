@@ -27,7 +27,7 @@ fi
 readme="${project_dir}/README.md"
 if [ ! -e "$readme" ]; then
   cat > "$readme" <<EOL
-# ${project_name}
+#  ${project_name}
 
 * Language: ${language}
 * Author: Alfred Simpson

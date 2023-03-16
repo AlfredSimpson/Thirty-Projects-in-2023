@@ -9,8 +9,8 @@ def generate_password(length):
 
 def calculate_entropy(password):
     char_set = string.ascii_letters + string.digits + string.punctuation
-    char_set_length = len(char_set)
-    entropy = len(password) * math.log2(char_set_length)
+    complexity = len(char_set)
+    entropy = len(password) * math.log2(complexity)
     return entropy
 
 def crackable(entropy):
@@ -48,6 +48,6 @@ if __name__ == '__main__':
 
     print(f"Generated password: {password}")
     print(f"Password entropy: {entropy:.2f} bits")
-    print(f"Approximate time to brute force:{format_time(timeToBrute)}")
-    print(f"Bear in mind, the time to brute force is based on your password being unique, never breached, and standard processing power.")
+    print(f"Approximate time to brute force: {format_time(timeToBrute)}")
+    print(f"Bear in mind, the time to brute force is based on your password being unique, never breached, and *modest* processing power.")
     print(f"Advanced in Quantum Computing may dramatically change this.")
