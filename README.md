@@ -31,7 +31,8 @@ I want to highlight what I'm capable of without collaboration. But that's not sa
 Just a rough idea of the projects that I may or may not accomplish in creating in 2023. They tend to get more difficult towards the bottom, so we'll see what I can do. If I add any midway, I'll add them here (if I remember!).
 
  - [x] Bash: Create a Project Template Generator
- - [ ] Python: Create a password generator that generates secure passwords of varying lengths.
+ - [x] Python: Create a password generator that generates secure passwords of varying lengths.
+ * * This also calculates bits of entropy AND estimated time to brute force a password.
  - [ ] HTML/CSS: Design a simple login form with proper validation checks (e.g., required fields).
  - [ ] JavaScript: Implement a basic client-side input validation for a registration form.
  - [ ] HTML/CSS/JavaScript: Build a responsive website layout with a navigation menu and mobile hamburger menu.
